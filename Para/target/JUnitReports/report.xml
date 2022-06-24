@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="35.702">
+<testcase classname="Inscription on parashop" name="Inscription" time="8.855">
+<failure message="Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because the return value of &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given Browser is open.......................................................passed
+And User clicks on s enregistrer............................................passed
+When User enter name jihene.................................................passed
+And Enter familly name saidene..............................................passed
+And Enter email test.academy14@yahoo.com....................................passed
+And Enter telephone 26555888................................................passed
+And Enter password Test123..................................................passed
+And Enter confirm password Test123..........................................passed
+And clicks on accept legal mentions.........................................passed
+And clicks on continuer.....................................................passed
+Then User is signed in on the website.......................................failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because the return value of "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" is null
+	at PageObjects.InscriptionPO.Compte(InscriptionPO.java:87)
+	at StepDefsPara.Inscription.user_is_signed_in_on_the_website(Inscription.java:89)
+	at ✽.User is signed in on the website(file:///C:/Users/jsaidane/eclipse-workspace/Para/src/test/resources/FeaturesPara/InscriptionPara.feature:16)
+]]></failure>
+</testcase>
+<testcase classname="Inscription on parashop" name="research as guest" time="26.541">
+<system-out><![CDATA[Given Browser is open and user on homepage..................................passed
+When User choose category...................................................passed
+And choose sub category.....................................................passed
+And choose price filter.....................................................passed
+And choose product..........................................................passed
+And click on add to cart....................................................passed
+And verify cart.............................................................passed
+Then the poduct is added to cart............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,319 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-24T13:06:42.066Z",
+        "line": 20,
+        "name": "Inscription",
+        "description": "",
+        "id": "inscription-on-parashop;inscription;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7169595700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefsPara.Inscription.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 475725700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on s enregistrer",
+            "match": {
+              "location": "StepDefsPara.Inscription.user_clicks_on_s_enregistrer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194481600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter name jihene",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jihene",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefsPara.Inscription.user_enter_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100729400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter familly name saidene",
+            "match": {
+              "arguments": [
+                {
+                  "val": " saidene",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefsPara.Inscription.enter_Familly_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113697800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter email test.academy14@yahoo.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test.academy14@yahoo.com",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefsPara.Inscription.enter_Email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75789300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter telephone 26555888",
+            "match": {
+              "arguments": [
+                {
+                  "val": " 26555888",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefsPara.Inscription.enter_telephone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78787900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter password Test123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefsPara.Inscription.enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74799600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter confirm password Test123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefsPara.Inscription.enter_Confirm_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99732800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicks on accept legal mentions",
+            "match": {
+              "location": "StepDefsPara.Inscription.clicks_on_accept_legal_mentions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112698500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on continuer",
+            "match": {
+              "location": "StepDefsPara.Inscription.clicks_on_continuer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.isDisplayed()\" because the return value of \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" is null\r\n\tat PageObjects.InscriptionPO.Compte(InscriptionPO.java:87)\r\n\tat StepDefsPara.Inscription.user_is_signed_in_on_the_website(Inscription.java:89)\r\n\tat ✽.User is signed in on the website(file:///C:/Users/jsaidane/eclipse-workspace/Para/src/test/resources/FeaturesPara/InscriptionPara.feature:16)\r\n",
+              "duration": 143841300,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "User is signed in on the website",
+            "match": {
+              "location": "StepDefsPara.Inscription.user_is_signed_in_on_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inscription"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-24T13:06:50.976Z",
+        "line": 23,
+        "name": "research as guest",
+        "description": "",
+        "id": "inscription-on-parashop;research-as-guest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4585398800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Browser is open and user on homepage",
+            "match": {
+              "location": "StepDefsPara.Rechreche.browser_is_open_and_user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325131000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User choose category",
+            "match": {
+              "location": "StepDefsPara.Rechreche.user_choose_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1255346000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "choose sub category",
+            "match": {
+              "location": "StepDefsPara.Rechreche.choose_sub_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477644800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "choose price filter",
+            "match": {
+              "location": "StepDefsPara.Rechreche.choose_price_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5634903800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "choose product",
+            "match": {
+              "location": "StepDefsPara.Rechreche.choose_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6494869900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on add to cart",
+            "match": {
+              "location": "StepDefsPara.Rechreche.click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2892315300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify cart",
+            "match": {
+              "location": "StepDefsPara.Rechreche.verify_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4867326600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the poduct is added to cart",
+            "match": {
+              "location": "StepDefsPara.Rechreche.the_poduct_is_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inscription"
+          }
+        ]
+      }
+    ],
+    "name": "Inscription on parashop",
+    "description": "",
+    "id": "inscription-on-parashop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeaturesPara/InscriptionPara.feature",
+    "tags": [
+      {
+        "name": "@Inscription",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

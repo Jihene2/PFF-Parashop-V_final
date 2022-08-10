@@ -1,5 +1,5 @@
 pipeline {
-    agent any {
+    agent (map.agent == null ? "any" : "${map.agent}") {
         stages {
         stage ('maven install'){
             steps {

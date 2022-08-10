@@ -1,10 +1,14 @@
+pipline {
+    agent any{
 stages {
   stage('maven install') {
     steps {
-      withMaven{
+      withMaven(maven:'maven3'){
         sh 'mvn clean install'
       }
     }
   }
 
+}
+    }
 }

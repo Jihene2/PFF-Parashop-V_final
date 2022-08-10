@@ -1,12 +1,10 @@
 pipeline {
-    agent (map.agent == null ? "any" : "${map.agent}") {
+    agent any {
         stages {
-          stage ('maven'){
+          stage ('build'){
             steps {
-                withMaven(maven:'maven3') {
                   sh 'mvn clean'
                   sh 'mvn install'
-                 }
               }
            }
         }

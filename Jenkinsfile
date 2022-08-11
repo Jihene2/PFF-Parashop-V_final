@@ -7,7 +7,7 @@ pipeline {
         stage ('build'){
             steps{
                 
-                  bat 'C:\Users\jsaidane\.jenkins\workspace\parashop-pipline\src\test\resources\FeaturesPara\InscriptionPara.feature'
+                  bat 'mvn clean install'
                 }
             }
         }

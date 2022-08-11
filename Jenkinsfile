@@ -7,7 +7,7 @@ pipeline {
         stage ('build'){
             steps{
                 
-                  bat 'InscriptionPara.feature'
+                  bat 'C:\Users\jsaidane\.jenkins\workspace\parashop-pipline\src\test\resources\FeaturesPara\InscriptionPara.feature'
                 }
             }
         }
